@@ -20,8 +20,6 @@ nav{
 
 .header1{
     border:1px solid black;
-    background-color:yellow;
-    margin-bottom:20px;
 }
 
 .header1 p:nth-child(3){
