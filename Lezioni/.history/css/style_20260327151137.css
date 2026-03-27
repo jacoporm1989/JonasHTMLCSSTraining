@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #444;
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+}
+
+h3 
+.milanA:active {
+    background-color: black;
+    color: red;
+    font-weight: bold;
+}
+
+.operaia {
+    font-size: 30px;
+}
+
+p span {
+    font-size: 40px;
+}
+
+.interA:active,
+main :nth-child(9) li:first-child:active {
+    background-color: black;
+    color: blue;
+    font-weight: bold;
+}
+
+.manchester_united a:nth-child(2):active {
+    background-color: orange;
+    color: red;
+    font-weight: bold;
+}
+
+/* Priorità selettori tramite proprietà applicate al footer*/
+
+
+#copyright {
+    color: red;
+}
+
+.copyright {
+    color: blue;
+}
+
+
+/*.text sta sotto a .copyright ==> mangia il colore di .copyright ==> 
+in assenza di id, il colore giallo mangia il blu e le scritta è quindi gialla*/
+
+.text {
+    color: yellow;
+}
+
+
+
+
+footer p {
+    color: green;
+}
+
+/* In questo caso il testo del p interno al footer sarà di colore rosso. */

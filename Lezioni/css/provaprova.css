@@ -1,0 +1,44 @@
+*{
+    color:violet;
+}
+
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+li:first-child{
+    color:red;
+}
+
+
+li:nth-child(2){
+    color:blue;
+}
+
+li:last-child{
+    color:green;
+}
+
+
+
+
+.div-prova{
+    height:400px;
+    width:600px;
+    background-color:red;
+    padding: 5px 10px;
+    border:5px solid black;
+    margin-bottom:160px;
+}
+
+
+.div-prova2{
+    height:400px;
+    width:600px;
+    background-color:blue;
+    padding: 5px 10px;
+    border:5px solid black;
+    margin-top:200px;
+}

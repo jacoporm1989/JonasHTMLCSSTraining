@@ -1,0 +1,52 @@
+
+body{
+    border:3px solid black;
+    font-family: sans-serif;
+    line-height:1.4;
+}
+
+header h2{
+    background-color:rgba(187, 181, 181,0.7);
+    text-transform: uppercase;
+    text-align:center;
+}
+
+main button{
+    font-size:28px;
+}
+
+main button:hover{
+    color:white;
+    background-color:black;
+}
+
+
+main p:nth-child(2){
+    font-size:24px;
+}
+
+main p:nth-child(3){
+    color:grey;
+    text-transform: uppercase;
+}
+
+main p:nth-child(4), main a:nth-child(5) {
+    
+    font-size:30px;
+    font-weight: bold;
+}
+
+
+main a:nth-child(5):active{
+    color:black;
+}
+
+main a:nth-child(5):visited{
+    color:black;
+}
+
+ul{
+    list-style-type: square;
+    font-size:25px;
+}
+
