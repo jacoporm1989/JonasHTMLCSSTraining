@@ -61,23 +61,13 @@ in assenza di id, il colore giallo mangia il blu e le scritta è quindi gialla*/
     color: yellow;
 }
 
-.squadre_inglesi{
+.elementi_squadre_inglesi{
     background-color:green;
     margin-top:20px;
-    border:5px solid black;
-    
-}
-
-.titolo_squadre_inglesi{
-    border:5px solid yellow;
-    padding:50px;
-    text-align:center;
-    font-size:40px;
-}
-.corpo_squadre_inglesi{
     border: 5px solid red;
     padding:70px;
 }
+
 
 
 footer p {
