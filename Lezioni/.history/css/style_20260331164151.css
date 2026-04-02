@@ -29,8 +29,8 @@ nav{
 }
 
 main header img:nth-child(3){
-    width:50%;
-    height:auto;
+    width:1000px;
+    height:500px;
 }
 
 .milanA:active {
