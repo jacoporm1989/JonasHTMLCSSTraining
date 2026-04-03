@@ -5,10 +5,14 @@ body{
     line-height:1.4;
 }
 
+
+
 header h2{
     background-color:rgba(187, 181, 181,0.7);
     text-transform: uppercase;
     text-align:center;
+    margin:0;
+    padding:30px;
 }
 
 main button{
@@ -49,4 +53,22 @@ ul{
     list-style-type: square;
     font-size:25px;
 }
+
+main a:nth-child(5){
+    color:black;
+}
+
+main a:nth-child(5):active{
+    color:black;
+}
+
+
+footer p{
+    margin:0;
+    padding:30px;
+}
+
+
+
+
 
