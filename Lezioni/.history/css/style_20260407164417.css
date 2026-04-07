@@ -31,7 +31,7 @@ nav a {
                     il box model, vedremo che il margin si trava anche in alto
                     e in basso. Tuttavia, queste due grandezze non vengono
                     mostrate a front end.*/
-    padding:15px;   /*Valgono le stesse regole del margin */
+    padding:15px;   /*Valgono le stesse regole del margin /*
 }
 
 .header1 {

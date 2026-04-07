@@ -25,13 +25,7 @@ nav {
 }
 
 nav a {
-    margin: 15px; /*Poiché a è un elemento inline => 
-                    il margine è applicato solo a sinistra e a destra, 
-                    e non in alto e in basso: tuttavia, se osserviamo
-                    il box model, vedremo che il margin si trava anche in alto
-                    e in basso. Tuttavia, queste due grandezze non vengono
-                    mostrate a front end.*/
-    padding:15px;   /*Valgono le stesse regole del margin */
+    margin: 15px;
 }
 
 .header1 {
